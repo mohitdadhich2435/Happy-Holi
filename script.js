@@ -1,5 +1,5 @@
 /* Typing Animation */
-let text = "By Mahi ";
+let text = " पिचकारी की धार, गुलाल की बौछार, अपनों का प्यार, यही हैं यारों होली का त्यौहार । होली की हार्दिक शुभकामनाएं। ";
 let i = 0;
 function typeEffect(){
     if(i < text.length){
