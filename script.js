@@ -68,3 +68,13 @@ setInterval(()=>{
     document.styleSheets[0].addRule('body::after','background:'+color2);
 
 },4000);
+
+const music = document.getElementById("bgMusic");
+
+document.addEventListener("touchstart", function(){
+    music.play();
+}, { once: true });
+
+document.addEventListener("click", function(){
+    music.play();
+}, { once: true });
